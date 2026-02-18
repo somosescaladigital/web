@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.card-modern',
         '.benefit-item',
         '.service-card',
+        '.testimonial-card',
         '.section-title'
     ];
 
