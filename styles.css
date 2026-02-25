@@ -70,7 +70,7 @@ nav {
 }
 
 .logo img {
-    height: 45px;
+    height: 55px;
     width: auto;
 }
 
@@ -405,7 +405,7 @@ section {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
     margin-top: 3rem;
 }
@@ -610,6 +610,10 @@ body.menu-open {
     /* Header adjustments for swapped order */
     nav {
         gap: 1rem;
+    }
+
+    .logo img {
+        height: 42px;
     }
 
     .btn-whatsapp-header {
